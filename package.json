@@ -1,0 +1,33 @@
+{
+  "name": "dictionary-api",
+  "version": "1.0.0",
+  "description": "A warp for the Owlbot API to get the Definitions with example sentence and photo if available",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmrMonier/dictionary-api.git"
+  },
+  "keywords": [
+    "Owlbot",
+    "dictionary",
+    "api",
+    "word",
+    "definition"
+  ],
+  "author": "Amr Monier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AmrMonier/dictionary-api/issues"
+  },
+  "homepage": "https://github.com/AmrMonier/dictionary-api#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  }
+}
